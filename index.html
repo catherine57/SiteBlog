@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="site statique HTML, CSS3, Javascript, Framework Bootstrap et Animate">
+    <meta name="auteur " content="Catherine ">
+    <meta name="robots" content="NOINDEX, NOFOLLOW">
+    <title>Site Html CSS et Bootstrap</title>
+
+    <!-- Bootstrap  CSS et Font google api Roboto-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,100,400italic,500italic,500,700italic,900,700,900italic,100italic' rel='stylesheet' type='text/css'>
+
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    
+</head>
+
+<body>
+    <header>
+        <div class="preHeader">
+            <div class="linkContainer">
+                <a href="#">Se connecter</a>
+                <span class="seperator"> - </span>
+                <a href="#">S 'inscrire</a>
+            </div>
+        </div>
+
+    
+        <nav class="header navbar ml-auto  navbar-light bg-light" >
+                  
+            <a class="navbar-brand" href="#">
+                <img src="images/logoCatherine_200x200.png" alt="Logo" class="logo"/>
+            </a>
+            
+            <div class=" menu" id="navbarNav" >
+                
+                <a class="link nav-link active" href="#">Accueil </a> 
+                <a class="link nav-link" href="#article">Articles</a>
+                <a class="link nav-link" href="#blog">Blog</a>
+                <a class="link nav-link" href="#forum">Forum</a>
+                <a class="link nav-link" href="#contact">Contact</a>
+            </div>
+        </nav>
+        
+    <div class="banner">
+        <div class="bannerText">
+            <h1>Accueil</h1>
+            <h2>Découvrez un nouveau monde !</h2>
+        </div>
+    </div>
+</header>
+
+<div id="maDivIndex"><h4>maDivIndex</h4></div>
+
+<div class="mainBlock">
+
+    <h3 class="sectionTitle"> Tutoriels vidéos Web </h3>
+    <section class="lastVideos">
+        <div class="videos">
+            <div class="videoContainer main">
+                <div class="iframeContainer">
+                    <iframe src="https://www.youtube.com/embed/PE8FQ6zihhw" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="videoContainer top">
+                <div class="iframeContainer">
+                    <iframe src="https://www.youtube.com/embed/gjkSRjEEwXE" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="videoContainer bottom">
+                <div class="iframeContainer">
+                    <iframe src="https://www.youtube.com/embed/Om9_UD8SN9U" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="videoInfos">
+            <h4 class="videoTitle">Découverte du CSS - Grafikart - Chaine Youtube </h4>
+            <p class="videoText">Après avoir vu l'HTML, Grafikart propose de découvrir le CSS. Ce langage va permettre de mettre en forme les éléments qui constitue notre page web..<br>
+            Un grand merci à l'ensemble des développeurs qui partagent leurs compétences et leur passion.<br>
+             <a href="https://www.grafikart.fr/tutoriels/presentation-css-1034" class="href">lien vers l'article sur le site www.grafikart.fr - Découverte du CSS</a>
+            </p>
+        </div>
+    </section>
+
+    <aside class="pub hidden-xs">
+        <p>Pub : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quasi rem doloribus,..</p>
+    </aside>
+    <div class="clear"></div>
+
+   
+
+    <h3 class="sectionTitle" id="article">Derniers articles</h3>
+    <section class="lastArticles" id="articles">
+        <div class="article" id="article1">
+            <img src="images/img-1.png" alt="blog image 1" />
+            <div class="articleInfos">
+                <h4 class="articleTitle">Utiliser des icônes simplement avec Bootstraps et les components Glyphicon </h4>
+                <p class="articleText">
+                Plus d'une douzaine de composants réutilisables conçus pour fournir une iconographie, des listes déroulantes, une navigation, des alertes et bien plus encore.<br>
+                Bootsrap inclut plus de 250 glyphicons en format de police du jeu Glyphicon Halflings. Les Glyphicons Halflings ne sont normalement pas disponibles gratuitement, mais leur créateur les ont mis à la disposition de Bootstrap gratuitement. 
+                En guise de remerciement, nous vous demandons seulement d'inclure un lien vers Glyphicons dans la mesure du possible....  </p>
+            </div>
+            <span class="date hidden-xs">23 Janv 2019</span>
+            <div class="clear"></div>
+
+            <div class="center">
+                <a class="btnShowArticle" href="https://getbootstrap.com/docs/3.3/components/" target="_blank" rel="noopener noreferrer"> 
+                    Aller sur la page de Bootstrap 3.3.7 <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+
+            <div class="article" id="article2">
+                <img src="images/img-2.png" alt="blog image 2" />
+                <div class="articleInfos">
+                    <h4 class="articleTitle">Minifer vos fichier CSS. Vous pouvez rendre vos visiteurs et Google heureux !</h4>
+                    <p class="articleText">
+                        Minifer (Minify en anglais) est un terme de programmation qui signifie « enlever les caractères inutiles » à l’éxécution du code. La vitesse de chargement d’un site est l’un des principaux critère d’évaluation par les moteurs de recherche. Votre SEO va être au top.<br>
+                        Utilisez CSS Compressor pour compresser CSS (CSS 1, CSS 2, CSS 2.1 et CSS 3) afin de réduire la taille du code CSS et accélérer le chargement de votre site Web.<br> Vous pouvez choisir parmi 4 niveaux de compression, en fonction de la lisibilité souhaitée du CSS compressé par rapport au degré de compression. C'est rapide, facile et gratuit!</p>
+                </div>
+                <span class="date hidden-xs">23 Janv 2019</span>
+                <div class="clear"></div>
+
+                <div class="center">
+                    <a class="btnShowArticle" 
+                    href="https://csscompressor.com/" target="_blank" rel="noopener noreferrer"> 
+                        Aller sur le site CSS Compressor  <span class="glyphicon glyphicon-chevron-right"></span> 
+                    </a>
+                </div>
+            </div>
+
+            <div id="blog" class="center">
+                <button class="btnShowBlog " onclick="accesBlog();">
+                    <!-- <a href="blog-page.html"></a> -->
+                    <!-- /C:/Users/catherine/Documents/tuto%20JavaSc%20notejs_prog-C_API_sans%20Wamp/blog/blog-page.html -->
+                    <!-- C:\Users\catherine\Documents\tuto JavaSc notejs_prog-C_API_sans Wamp\blog -->
+
+                    <a href="C:\Users\catherine\Documents\tuto JavaSc notejs_prog-C_API_sans Wamp\blog/blog-page.html">
+                    Accèder aux autres articles du Blog  <span class="glyphicon glyphicon-menu-right"></span>
+                    </a>
+                </button>
+            </div> 
+    </section>
+
+    <section class="newsletter center">
+        <h3 class="newsletterTitle">Inscris-toi à la <strong>Newsletter</strong></h3>
+        <p class="newsletterText text-center ">Rester informé des dernières nouveautés concernant le graphisme mais aussi<br />à propos du développement à travers un email.</p>
+        <form class="newsletterSub" method="post" action="" onclick="alert('accès non disponible');">
+            <input name="subMail" placeholder="adresse@domaine.com"/>
+            <button type="submit" onclick="alert('Inscription non validée');">
+                <span class="glyphicon glyphicon-triangle-right"></span>
+            </button>
+        </form>
+    </section>
+
+    <section id="forum" class="forum">
+        <h3 class="forumTitle">Une question ? Un problème ?</h3>
+        <p class="forumText">Suspendisse placerat nulla vel magna faucibus cursus. Nulla sit amet libero risus. Donec tortor neque, dapibus sed tellus sed, suscipit consectetur nisl. Mauris nec accumsan tellus. Morbi eget neque tempus, rhoncus lacus sed, vulputate.</p>
+        <button class="btnShowForum" onclick="accesForum();">Forum</button>
+        <div class="clear"></div>
+    </section>
+    <div class="clear"></div>
+
+    <section id="contact" class="contact">
+        <h3 class="ContactTitle">Contact</h3>
+        <form method="post" action="">
+            <label >Votre nom :</label>
+            <input class="input" name="name" placeholder="Votre nom *" />
+            <label >Votre mail :</label>
+            <input class="input" name="email" placeholder="Votre email *" />
+                <label >______</label>
+                <textarea name="message" placeholder="Votre message *"></textarea>
+            <button class="btnSendMessage" onclick="alert('la validité de votre envoi n\'a pas été testée !');">Envoyer</button>
+        </form>
+    </section>
+</div>
+
+<footer>Copyrights © 2020, Tous droits réservés.</footer>
+
+<!--  Jquery.js et Bootstrap.js   placé a la fin du body pour chargement plus rapide
+    ======================================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<!--  scripts placés a la fin du body pour chargement plus rapide
+    ======================================================================== -->
+   <script>
+        //alert("Bienvenue à l'accueil !");
+        // DIV
+       /* var divIndex = document.getElementById("maDivIndex");
+        alert(divIndex.innerHTML + "dans indexhtml");*/
+        // ART 1
+        /*var article1 = document.getElementById("article1");
+        alert(article1.innerHTML + " article1 dans indexhtml");*/
+        // classeInfos
+       /* var classe = document.querySelector(".articleInfos");
+        alert(classe.innerHTML + " classeInfos dans index" );*/
+    </script>
+
+    <script type="text/javascript" src="js/script.js">
+        //alert("Bienvenue à l'accueil !");
+        /*var divIndex = document.getElementById("maDivIndex");
+        alert(divIndex.innerHTML + "dans indexhtml");
+        var article1 = document.getElementById("article1");
+        alert(article1.innerHTML + " article1 dans indexhtml");*/
+
+    </script>
+
+    
+
+</body>
+
+    <div style="text-align: center;">
+    <div style="position: relative; top: 0; margin-right: auto; margin-left: auto; z-index: 99999">
+
+    </div></div>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr" style="background-color: white;">
+<head>
+	<meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Les articles du blog</title>
+	<meta name="description" content="site statique HTML, CSS3, Javascript, Framework Bootstrap et Animate">
+    <meta name="auteur " content="Catherine ">
+    <meta name="robots" content="NOINDEX, NOFOLLOW">
+    <title>Site Html CSS et Bootstrap -Blog</title>
+
+    <!-- Bootstrap  CSS et Font google api Roboto-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,100,400italic,500italic,500,700italic,900,700,900italic,100italic' rel='stylesheet' type='text/css'>
+
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+   
+    
+</head>
+
+<body style="background-color: white; ">
+
+     <header>
+        <div class="preHeader">
+            <div class="linkContainer">
+                <a href="#">Se connecter</a>
+                <span class="seperator"> - </span>
+                <a href="#">S 'inscrire</a>
+            </div>
+        </div>
+
+    
+        <nav class="header navbar ml-auto  navbar-light bg-light" >
+                  
+            <a class="navbar-brand" href="#">
+                <img src="images/logoCatherine_200x200.png" alt="Logo" class="logo"/>
+            </a>
+            
+            <div class=" menu" id="navbarNav" >
+                
+                <a class="link nav-link active" href="/C:/Users/catherine/Documents/tuto%20JavaSc%20notejs_prog-C_API_sans%20Wamp/blog/index.html" >Retour à l'accueil </a> 
+                <!-- <a class="link nav-link" href="C:/Users/catherine/Documents/tuto%20JavaSc%20notejs_prog-C_API_sans%20Wamp/blog/index.html#article">Articles</a>
+                <a class="link nav-link" href="#blog">Blog</a>
+                <a class="link nav-link" href="#forum">Forum</a>
+                <a class="link nav-link" href="#contact">Contact</a> -->
+            </div>
+        </nav>
+                
+    </header>
+
+	<!-- <div id="maDivPage"><h2>divPage</h2></div>
+        <div id="root">rootid</div> -->
+
+<div class="mainBlock">
+	<h1 style="text-align: center;">L'ensemble des articles</h1>
+
+	<section class="lastArticles container-fluid " id="articles">
+        <div class="article row" id="article1">
+            <img class="col-md-2 col-xs-1" src="images/img-1.png" alt="blog image 1" />
+            <div class="articleInfos">
+                <h4 class="articleTitle">Utiliser des icônes simplement avec Bootstraps et les components Glyphicon </h4>
+                <p class="articleText">
+                Plus d'une douzaine de composants réutilisables conçus pour fournir une iconographie, des listes déroulantes, une navigation, des alertes et bien plus encore.<br>
+                Bootsrap inclut plus de 250 glyphicons en format de police du jeu Glyphicon Halflings. Les Glyphicons Halflings ne sont normalement pas disponibles gratuitement, mais leur créateur les ont mis à la disposition de Bootstrap gratuitement. 
+                En guise de remerciement, nous vous demandons seulement d'inclure un lien vers Glyphicons dans la mesure du possible....  </p>
+            </div>
+            <span class="date hidden-xs">23 Janv 2019</span>
+            <div class="clear"></div>
+
+            <div class="center">
+                <a class="btnShowArticle" href="https://getbootstrap.com/docs/3.3/components/" target="_blank" rel="noopener noreferrer"> 
+                    Aller sur la page de Bootstrap 3.3.7 <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+        <div class="article" id="article2">
+            <img src="images/img-2.png" alt="blog image 2" />
+            <div class="articleInfos">
+                <h4 class="articleTitle">Minifer vos fichier CSS. Vous pouvez rendre vos visiteurs et Google heureux !</h4>
+                <p class="articleText">
+                    Minifer (Minify en anglais) est un terme de programmation qui signifie « enlever les caractères inutiles » à l’éxécution du code. La vitesse de chargement d’un site est l’un des principaux critère d’évaluation par les moteurs de recherche. Votre SEO va être au top.<br>
+                    Utilisez CSS Compressor pour compresser CSS (CSS 1, CSS 2, CSS 2.1 et CSS 3) afin de réduire la taille du code CSS et accélérer le chargement de votre site Web.<br> Vous pouvez choisir parmi 4 niveaux de compression, en fonction de la lisibilité souhaitée du CSS compressé par rapport au degré de compression. C'est rapide, facile et gratuit!</p>
+            </div>
+            <span class="date hidden-xs">23 Janv 2019</span>
+            <div class="clear"></div>
+
+            <div class="center">
+                <a class="btnShowArticle" 
+                href="https://csscompressor.com/" target="_blank" rel="noopener noreferrer"> 
+                    Aller sur le site CSS Compressor  <span class="glyphicon glyphicon-chevron-right"></span> 
+                </a>
+            </div>
+        </div>
+
+            
+    </section> 
+</div>
+	
+<br><br>
+<footer style="background-color: #e1e1e1; height: 70px; margin-top: 10px;">Copyrights © 2020, Tous droits réservés.</footer>
+
+<!--  Jquery.js et Bootstrap.js   placé a la fin du body pour chargement plus rapide
+    ======================================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<!--  scripts placés a la fin du body pour chargement plus rapide
+    ======================================================================== -->
+    
+    <script>
+        /*var divPage = document.getElementById("maDivPage");
+        alert(divPage.innerHtml + " div Page");
+      */
+    </script>
+
+    <script src="js/script.js" type="text/javascript"></script>
+
+    <script>//afficheArticleInfos();</script>
+
+    <script src="js/script-blog-page.js" type="text/javascript">
+       
+    </script>
+
+    
+
+</body>
+
+    <div style="text-align: center;">
+    <div style="position: relative; top: 0; margin-right: auto; margin-left: auto; z-index: 99999">
+
+    </div></div>
+</html>
