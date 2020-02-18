@@ -2,9 +2,9 @@
 
 
 function accesBlog() {
-	document.write(document.documentURI);
+	//document.write(document.documentURI);
 	//  pour mettre une nouvelle locationn     window.location.replace(  );
-	document.documentURI = "file:///C:/Users/catherine/Documents/tuto%20JavaSc%20notejs_prog-C_API_sans%20Wamp/blog/blog-page.html";
+	//document.documentURI = "file:///C:/Users/catherine/Documents/tuto%20JavaSc%20notejs_prog-C_API_sans%20Wamp/blog/blog-page.html";
 	document.write("<h1> Bienvenue sur le blog !!!,,,,!!</h1>" );
 }
 
