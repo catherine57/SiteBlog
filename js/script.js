@@ -12,6 +12,6 @@ function accesForum() {
 function envoyer(){
 
 	alert('la validité de votre envoi n\'a pas été testée ! ');
-	alert("Message non transmis")
+	alert("Message non transmis");
 	window.location = "https://catherine57.github.io/SiteBlog/#contact";
 };
