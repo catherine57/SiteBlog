@@ -9,9 +9,8 @@ function accesForum() {
 	window.location = "https://catherine57.github.io/SiteBlog/";
 };
 
-function envoyer(){
+function envoyerMessage(){
 
 	alert('la validité de votre envoi n\'a pas été testée ! ');
 	alert("Message non transmis");
-	window.location = "https://catherine57.github.io/SiteBlog/#contact";
 };

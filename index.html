@@ -149,8 +149,9 @@
     <section class="newsletter center">
         <h3 class="newsletterTitle">Inscris-toi à la <strong>Newsletter</strong></h3>
         <p class="newsletterText text-center ">Rester informé des dernières nouveautés concernant le graphisme mais aussi<br />à propos du développement à travers un email.</p>
-        <form class="newsletterSub" method="post" action="" onclick="alert('accès non disponible');">
+        <form class="newsletterSub" method="post" action="">
             <input name="subMail" placeholder="adresse@domaine.com"/>
+
             <button onclick="alert('Inscription non validée');">
                 <span class="glyphicon glyphicon-triangle-right"></span>
             </button>
@@ -160,6 +161,7 @@
     <section id="forum" class="forum">
         <h3 class="forumTitle">Une question ? Un problème ?</h3>
         <p class="forumText">Suspendisse placerat nulla vel magna faucibus cursus. Nulla sit amet libero risus. Donec tortor neque, dapibus sed tellus sed, suscipit consectetur nisl. Mauris nec accumsan tellus. Morbi eget neque tempus, rhoncus lacus sed, vulputate.</p>
+
         <button class="btnShowForum" onclick="accesForum();">Forum</button>
         <div class="clear"></div>
     </section>
@@ -174,7 +176,7 @@
             <input class="input" name="email" placeholder="Votre email *" />
             <label >______</label>
             <textarea name="message" placeholder="Votre message *"></textarea>
-            <button class="btnSendMessage" onclick="envoyer();">Envoyer</button>
+            <button class="btnSendMessage" onclick="envoyerMessage();">Envoyer</button>
         </form>
     </section>
 </div>
