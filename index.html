@@ -149,12 +149,13 @@
     <section class="newsletter center">
         <h3 class="newsletterTitle">Inscris-toi à la <strong>Newsletter</strong></h3>
         <p class="newsletterText text-center ">Rester informé des dernières nouveautés concernant le graphisme mais aussi<br />à propos du développement à travers un email.</p>
-        <form class="newsletterSub" method="post" action="">
-            <input name="subMail" placeholder="adresse@domaine.com"/>
-
-            <button onclick="alert('Inscription non validée');">
+        <form class="newsletterSub" method="post" action="traitement-valide.php" id="monFormNew">
+            <input type="email" name="subMail" id="subMail" placeholder="adresse@domaine.com"/>
+            <!-- onclick="alert('Inscription non validée');" -->
+            <button type="submit">
                 <span class="glyphicon glyphicon-triangle-right"></span>
             </button>
+            <div id="message" ></div>
         </form>
     </section>
 
