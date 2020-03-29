@@ -42,6 +42,7 @@ function accesForum() {
 				succes.innerHTML = "";
 				console.log(succes);
 			}
+			window.location = "https://catherine57.github.io/SiteBlog/#contact";
 		}
 	);
 
@@ -69,5 +70,6 @@ monFormNew.addEventListener('submit',
 			succes.style.background = 'pink';
 			evt.preventDefault();
 		}
+		window.location = "https://catherine57.github.io/SiteBlog/#blog";
 	}
 );  
