@@ -29,7 +29,7 @@ function accesForum() {
 		 	var test = monRegex.test(inputNom.value);
 		 	console.log("test regex1 : " + test);
 
-		// 	// Message si nom contient un chiffre
+			// Message si nom contient un chiffre
 		 	if( monRegex.test(inputNom.value) == false ){
 				var erreurNom = document.getElementById("messageFormContact")
 				erreurNom.innerHTML = "Votre nom ne peut pas contenir de chiffre";
@@ -39,8 +39,9 @@ function accesForum() {
 			} else {
 
 				var succes = document.getElementById("messageFormContact");
-				succes.innerHTML = "";
+				succes.innerHTML = "Votre message est valide ! Il est transmis au back-end";
 				console.log(succes);
+				erreurNom.style.color = 'green';
 			}
 			window.location = "https://catherine57.github.io/SiteBlog/#contact";
 		}
@@ -50,6 +51,7 @@ function accesForum() {
 /*******************
      Newsletter
 ********************/
+
 var monFormNew = document.getElementById("monFormNew");
 var email = document.getElementById("subMail");
 
