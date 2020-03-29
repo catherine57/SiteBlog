@@ -41,7 +41,7 @@ function accesForum() {
 				var succes = document.getElementById("messageFormContact");
 				succes.innerHTML = "Votre message est valide ! Il est transmis au back-end";
 				console.log(succes);
-				erreurNom.style.color = 'green';
+				succes.style.color = 'green';
 			}
 			window.location = "https://catherine57.github.io/SiteBlog/#contact";
 		}
