@@ -424,7 +424,7 @@ header{
     margin-bottom: 45px;
 }
 
- .contact input, .contact textarea{
+ .contactForm input, .contactForm textarea{
     color: #cecece;
     outline: none;
     height: 20px;
